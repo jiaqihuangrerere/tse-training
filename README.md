@@ -5,29 +5,31 @@ Reach out if you're having trouble with any of it and communicate with me if any
 
 ## Agile software development cycle
 #### Git
-1. If you don't have the Git CLI (do not use GitHub Desktop), run through step 1 of https://www.taniarascia.com/getting-started-with-git/.
-2. If you're not too familiar with Git (e.g. you don't quite understand how branches/merging works), complete https://try.github.io.
-3. Read https://chris.beams.io/posts/git-commit/.
+1. If you don't have the Git CLI (*do not use GitHub Desktop*), run through [this guide to installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+2. If you're not too familiar with Git (e.g. you don't quite understand how branches/merging works), complete [this Git tutorial](https://try.github.io).
+3. Read [this quick article on writing good commit messages](https://chris.beams.io/posts/git-commit/).
 
 #### Kanban boards
-Just update your progress on the repo's Kanban Boards as you go along. I'll set these up beforehand for everyone. We'll be using the GitHub Marketplace plugin [issue.sh](https://github.com/marketplace/issue-sh) for now, so go ahead and set that up before doing any of the below tasks. Message me on Slack if you have difficulty with that. The plugin should already be set up, with pre-populated and assigned issues for everyone to complete.
+Just update your progress on the repo's Kanban Boards as you go along. I'll set these up beforehand for everyone. We'll be using the GitHub Marketplace plugin [issue.sh](https://github.com/marketplace/issue-sh) for now, so go ahead and set that up before doing any of the below tasks. Message me on Slack if you have difficulty with that. The boards should already be set up, with pre-populated and assigned issues for everyone to complete.
 
 #### HTML/CSS/JavaScript
-1. If you're not familiar with HTML/CSS, complete https://www.learn-html.org/.
-2. If you're not familiar with JavaScript, complete https://www.learn-js.org/.
-3. Clone this repo.
-4. Create your own branch (duplicate the `master` branch).
-5. Complete the two following tasks (and update the Kanban Boards):
 
-__recreate this mockup of a login screen__
+1. If you're not familiar with HTML/CSS, complete the ["Learn HTML"](https://www.codecademy.com/learn/learn-html) and ["Learn CSS"](https://www.codecademy.com/learn/learn-css) Codecademy courses.
+2. If you're not familiar with JavaScript, complete [the "Introduction to JavaScript" Codecademy course](https://www.codecademy.com/learn/introduction-to-javascript).
+3. Complete [the "Make a Website" Codecademy course](https://www.codecademy.com/learn/make-a-website).
+4. Clone this repo.
+5. Create your own branch (duplicate the `master` branch).
+6. Complete the two following exercises (and update the Kanban Boards).
+
+__Exercise 1: recreate this mockup of a login screen__
 
 Stolen from my old PM [Sean](https://github.com/seannam) (thanks Sean). Mockup:
 
 ![login screen mockup](https://github.com/sumeet-bansal/tse-training/blob/master/mockup.png "login screen mockup")
 
-Basically, just recreate that in pure HTML and CSS. Don't worry about getting the colors right.
+Basically, just recreate that using HTML and CSS (using Bootstrap is fine). Don't worry about getting the colors right.
 
-__tie JavaScript to some buttons__
+__Exercise 2: tie JavaScript to some buttons__
 
 A stripped-down version of an ECE 140A assignment:
 1. Create an HTML page with 4 buttons and some placeholder text.
