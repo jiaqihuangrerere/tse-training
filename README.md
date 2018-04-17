@@ -10,7 +10,7 @@ Reach out if you're having trouble with any of it and communicate with me if any
 3. Read [this quick article on writing good commit messages](https://chris.beams.io/posts/git-commit/).
 
 #### Kanban boards
-Just update your progress on the repo's Kanban Boards as you go along. I'll set these up beforehand for everyone. We'll be using the GitHub Marketplace plugin [issue.sh](https://github.com/marketplace/issue-sh) for now, so go ahead and set that up before doing any of the below tasks. Message me on Slack if you have difficulty with that. The boards should already be set up, with pre-populated and assigned issues for everyone to complete.
+Just update your progress on the repo's Kanban Boards as you go along. I'll set these up beforehand for everyone, with pre-populated and assigned issues for everyone to complete.
 
 #### HTML/CSS/JavaScript
 
