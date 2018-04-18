@@ -45,3 +45,6 @@ __Since other people are going to be on this repo as well, please don't merge an
 + [JavaScript 30](https://javascript30.com/)
 + [learn-html.org](https://learn-html.org/) and [learn-js.org](https://learn-js.org/)
 + [w3schools](https://www.w3schools.com/) for [HTML](https://www.w3schools.com/html/default.asp), [CSS](https://www.w3schools.com/css/default.asp), and [JavaScript](https://www.w3schools.com/js/default.asp)
++ [this game to learn/practice CSS selectors](https://flukeout.github.io/)
++ [the Odin Project](https://www.theodinproject.com/) for [HTML+CSS](https://www.theodinproject.com/courses/html5-and-css3) and [JavaScript](https://www.theodinproject.com/courses/javascript)
++ [JavaScript for Cats](http://jsforcats.com/)
