@@ -5,5 +5,6 @@ Reach out if you're having trouble with any of it and communicate with me if any
 
 ### Sprints
 1. [Agile and HTML/CSS/JavaScript](https://github.com/sumeet-bansal/tse-training/tree/master/sprint-1)
+2. [Node.js with Express](https://github.com/sumeet-bansal/tse-training/tree/master/sprint-2)
 
 Designed by [Sumeet](https://github.com/sumeet-bansal/) for [TSE (Triton Software Engineering)](http://tc.ucsd.edu).
