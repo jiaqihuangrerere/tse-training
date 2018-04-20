@@ -16,7 +16,7 @@ Just update your progress on the repo's Kanban Boards as you go along. I'll set 
 3. Complete [the "Make a Website" Codecademy course](https://www.codecademy.com/learn/make-a-website).
 4. Clone this repo.
 5. Create your own branch (duplicate the `master` branch).
-6. Complete the two following exercises (and update the Kanban Boards).
+6. Complete the two following mini-projects (and update the Kanban Boards).
 
 ### Project 1: login-mockup
 __Description__: *recreate a mockup of a login screen.*
@@ -30,7 +30,7 @@ Basically, just recreate that using HTML and CSS (using Bootstrap is fine). Don'
 ### Project 2: button-page
 __Description__: *tie JavaScript to some buttons.*
 1. Create an HTML page with 4 buttons and some placeholder text.
-2. Add a JavaScript file that listens for button clicks and updates the text.
+2. Add a JavaScript file that listens for button clicks and updates the text depending on which button is clicked.
 
 The text can honestly be anything: your NBA playoffs bracket, your explanation of 2001: A Space Odyssey, a single character&mdash;it doesn't really matter. The focus of this is getting the JavaScript events right (which is also why there's no mockup). Feel free to use external libraries and packages (e.g. jQuery for the JavaScript portion, Bootstrap if you care enough to make the page look decent).
 
