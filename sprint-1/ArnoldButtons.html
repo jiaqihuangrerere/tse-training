@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        div {
+            max-width: 700px;
+            margin: auto;
+        }
+        button {
+            background-color: orange;
+            color: white;
+            padding: 14px 20px;
+            margin-left: 60px;
+            margin-right: 300px;
+            border: solid;
+            border-color: skyblue;
+            cursor: pointer;
+            width: 20%;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            opacity: 0.7;
+        }
+        
+        .text {
+            display: none;
+        }
+      </style>
+  </head>
+    
+  <body>
+    <div>
+        <button id="first" onclick="firstButton()">First Round</button>
+        <button id="second" onclick="secondButton()">Second Round</button>
+        <button id="semi" onclick="semiButton()">Conference Final</button>
+        <button id="final" onclick="finalButton()">NBA Final</button>
+    </div>
+      
+    <div class = "text" id="first round">
+      <h4>First Round Prediction:</h4>
+      <h5>West: Rockets in 7, Thunder in 6, Pelican in 5, Warriors in 5</h5>
+      <h5>East: Raptors in 6, Cavaliers in 6, Sixers in 5, Celtics in 7</h5>
+    </div> 
+    
+    <div class = "text" id="second round">
+      <h4>Second Round Prediction:</h4>
+      <h5>West: Thunder in 7, Warriors in 6</h5>
+      <h5>East: Raptors in 7, Sixers in 6</h5>
+    </div> 
+      
+    <div class = "text" id="conference final">
+      <h4>Conference Final Prediction:</h4>
+      <h5>West: Thunder in 7</h5>
+      <h5>East: Sixers in 6</h5>
+    </div>
+      
+    <div class = "text" id="NBA final">
+      <h3>Final Prediction:</h3>
+      <h1>Sixers in 6, Trus the Process!!!</h1>
+    </div>
+      
+    <img id = "bracket" src="https://images.performgroup.com/di/library/NBA_Global_CMS_image_storage/63/e8/nba-playoffs-2018-bracketjpg_u7zwkdtnxhrp1thhcaqww2ql2.jpg?t=-1197740366">
+    
+    <script>
+      function firstButton() {
+        var x = document.getElementById("first round");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+      }
+    
+      function secondButton() {
+        var x = document.getElementById("second round");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+      }
+        
+      function semiButton() {
+        var x = document.getElementById("conference final");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+      }
+        
+      function finalButton() {
+        var x = document.getElementById("NBA final");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+      }
+        
+    </script>
+  </body>
+</html>
