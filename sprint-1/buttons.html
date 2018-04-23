@@ -3,8 +3,19 @@
 
 <head>
 	<script src="./buttons.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
+<h2>Button JavaScript page</h2>
+
+   <div class = "buttonclass">
+       <p>Click the button to trigger a function that will output different messages.</p>
+       <button onclick="getHelloworld()" style="background: hotpink; cursor: pointer;">Get "Hello World Message"</button>
+       <button onclick="getJacky()" style="background: powderblue; cursor: pointer;">Get "Jacky Message"</button>
+       <button onclick="getUCSD()" style="background: greenyellow; cursor: pointer;">Get "UCSD Message"</button>
+       <button onclick="getSanDiego()" style="background: orangered; cursor: pointer;">Get "San Diego Message"</button>
+       <p id="demo">Original message</p>
+   </div>
 </body>
 </html>
