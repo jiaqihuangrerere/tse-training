@@ -13,6 +13,7 @@
 .btn {
 	margin-top: 5%;
 	margin-bottom: 10%;
+	height: 2.4rem;
 }
 
 .btn:focus, .btn:active {
