@@ -1,0 +1,19 @@
+button {
+    margin: auto;
+    color: navy blue;
+}
+
+.title {
+    max-width: 0px;
+    margin: auto;
+}
+
+form {
+    max-width: 800px;
+    align-content: center;
+    margin-left: 38%;
+    margin-top: 10px;
+}
+
+
+
