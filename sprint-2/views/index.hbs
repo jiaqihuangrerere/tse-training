@@ -7,7 +7,14 @@
   </head>
   <body>
     <h2>index</h2>
-    <button type="button" class="btn">posts</button>
-    <button type="button" class="btn">about</button>
-  </body>
+    <button type="button" class="btn" id="posts">posts</button>
+    <button type="button" class="btn" id="about">about</button>
+    <script type="text/javascript">
+      document.getElementById("posts").onclick = function () {
+        location.href = '/posts';
+      };
+      document.getElementById("about").onclick = function () {
+        location.href = '/about';
+      };
+    </script>
 </html>

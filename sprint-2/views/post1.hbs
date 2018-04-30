@@ -7,7 +7,15 @@
   </head>
   <body>
     <h2>post1</h2>
-    <button type="button" class="btn">back to home</button>
-    <button type="button" class="btn">back to posts</button>
+    <button type="button" class="btn" id="home">back to home</button>
+    <button type="button" class="btn" id="posts">back to posts</button>
+    <script type="text/javascript">
+      document.getElementById("home").onclick = function () {
+        location.href = '/';
+      };
+      document.getElementById("posts").onclick = function () {
+        location.href = '/posts';
+      };
+    </script>
   </body>
 </html>
