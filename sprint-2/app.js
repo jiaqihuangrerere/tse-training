@@ -21,9 +21,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', index);
 app.use('/about', about);
 app.use('/posts', posts);
 app.use('/post1', post1);
+
+app.get('/', index)
 
 module.exports = app;

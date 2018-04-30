@@ -6,9 +6,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   </head>
   <body>
-    <h2>posts</h2>
-    <button type="button" class="btn" id="home">back to home</button>
-    <button type="button" class="btn" id="post1">post 1</button>
+    <div class="container mt-5">
+      <h1 class="text-center mb-5">posts</h1>
+      <div class="row justify-content-md-center mb-2">
+        <button type="button" class="btn btn-info col-md-4" id="home">back to home</button>
+      </div>
+      <div class="row justify-content-md-center">
+        <button type="button" class="btn btn-info col-md-4" id="post1">post1</button>
+      </div>
+    </div>
+
     <script type="text/javascript">
       document.getElementById("home").onclick = function () {
         location.href = '/';
