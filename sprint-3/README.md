@@ -4,6 +4,7 @@ This sprint is focused on introducing templating and MongoDB. As with the last s
 ### Templating
 Now that you have a decent grasp of HTML/CSS/JavaScript, it's time to move on to templates. Templates are kind of the same, but not really; they're exactly what the name implies: document templates that don't contain any data. They're essentially generic documents that we can pass data into on-the-fly, allowing us to reuse the same web documents over and over again with different data&mdash;super useful. [Handlebars](https://handlebarsjs.com/) is the templating engine we'll be using.
 1. Read [this beginner's guide to Handlebars](https://www.sitepoint.com/a-beginners-guide-to-handlebars/) up to the bit about custom helpers. *Note: the guide mentions a JavaScript file that needs to be loaded, but the templating engine is already baked into our Express app.*
+2. Go through [the w3schools intro to JSON](https://www.w3schools.com/js/js_json_intro.asp) up to and including the page about arrays.
 
 ### Project 4: discount-twitter-1
 __Description__: *use templating from a .json file to automatically generate site code and add "chirps" from the site.*
