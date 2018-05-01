@@ -1,6 +1,9 @@
 button {
     margin: auto;
     color: navy blue;
+    width: 50%;
+    height: 20px;
+    margin-top: 5px;
 }
 
 .title {
