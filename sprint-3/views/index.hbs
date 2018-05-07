@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+        <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+        </head>
+        <script>
+            function retweet() {
+                var x = document.getElementById("retweet");
+                if ({{isRetweet}} === "false") {
+                    x.style.display = "block";
+                } 
+            }
 
-<head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-</head>
-
-<body class="container" style="background: #fcfcfc">
-</body>
+            for (i in data) {
+                var x=" ";
+                x += "<h3>" + data[i] + "<h3>";
+            }
+            doucment.getElementByID("demo").innerHTML = x;
+        </script>
+        <script id="handlebars-sprint-3" type="text/x-handlebars-template">
+            <body class="container" style="background: #fcfcfc">
+            <div class="col-sm-3">
+                <img class="img-thumbnail" alt="Cinque Terre">
+            </div>
+            <div class="col-lg-9">
+                <div class="row-sm-4">
+                    <i id="retweet" class="fas fa-retweet">gary retweeted</i>
+                    {{author_name}} (@{{author_handle}})
+                    {{text}}
+                    <i class="fas fa-comments"></i>{{comments}}
+                    <i class="fas fa-retweet"></i>{{retweets}}
+                    <i class="fas fa-heart"></i>{{likes}}
+                </div>
+                <div class="row-sm-4">
+                    <i id="retweet" class="fas fa-retweet">gary retweeted</i>
+                    {{author_name}} (@{{author_handle}})
+                    {{text}}
+                    <i class="fas fa-comments"></i>{{comments}}
+                    <i class="fas fa-retweet"></i>{{retweets}}
+                    <i class="fas fa-heart"></i>{{likes}}
+                </div>
+                <div class="row-sm-4">
+                    <i id="retweet" class="fas fa-retweet">gary retweeted</i>
+                    {{author_name}} (@{{author_handle}})
+                    {{text}}
+                    <i class="fas fa-comments"></i>{{comments}}
+                    <i class="fas fa-retweet"></i>{{retweets}}
+                    <i class="fas fa-heart"></i>{{likes}}
+                </div>
+                <div class="row-sm-4">
+                    <i id="retweet" class="fas fa-retweet">gary retweeted</i>
+                    {{author_name}} (@{{author_handle}})
+                    {{text}}
+                    <i class="fas fa-comments"></i>{{comments}}
+                    <i class="fas fa-retweet"></i>{{retweets}}
+                    <i class="fas fa-heart"></i>{{likes}}
+                  </div>
+                <div class="row-sm-4">
+                    <i id="retweet" class="fas fa-retweet">gary retweeted</i>
+                    {{author_name}} (@{{author_handle}})
+                    {{text}}
+                    <i class="fas fa-comments"></i>{{comments}}
+                    <i class="fas fa-retweet"></i>{{retweets}}
+                    <i class="fas fa-heart"></i>{{likes}}
+                 </div>
+            </div>
+        </body>
+    </script>
 </html>
